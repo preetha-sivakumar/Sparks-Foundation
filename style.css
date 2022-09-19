@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('img/cc2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10% ;
+    justify-content: center;
+    
+    
+    box-sizing: border-box;
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    
+}
+.logo{
+    width: 100px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+
+
+}
+nav h1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+
+    font-size: 50px; 
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    color: black;
+    font-size: 25px; 
+    text-decoration: none;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav li:hover {
+    /* background-color: rgba(220, 41, 41, 0.808); */
+    transition: all 250ms ease;
+}
+.first {
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../material/bg-cover.jpg"); */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+    
+}
+.first a{
+    color: black;
+    font-size: 30px;
+}
+.first-heading {
+    font-size: 3em;
+}
+
+.first-subtext {
+    margin: 1em;
+    font-weight: 1000;
+    font-size: 30px;
+    color: #ffd54f;
+}
+
+.text {
+    color: red;
+}
+.btn{
+    border: 2px solid #ffd54f;;
+    padding: 6px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    
+}
+.btn:hover{
+    background-color: red;
+}
+.btn1{
+    border: 2px solid #ffd54f;;
+    padding: 6px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+.btn1:hover{
+    background-color: #ffd54f;
+}
+.btn1 a{
+    color: white;
+    font-size: 20px;
+    
+}
+/* DONATION PAGE STYLE*/
+.home1{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('img/don.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10% ;
+    justify-content: center;
+    
+    
+    box-sizing: border-box;
+    color: black;
+
+}
+
+.donatebox
+{
+  background-color: rgb(0,0,0,0.6);
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+  margin: 15%;
+}
+.donatebox h1
+{
+  text-align: center;
+  font-size: 200%;
+}
+.donatebox .fa-user
+{
+  margin-bottom: 3px;
+}
+
+/*CONATCT*/
+.home2{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('img/pp.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10% ;
+    justify-content: center;
+    
+    
+    box-sizing: border-box;
+    color: black;
+
+}
+.home2 nav h1{
+    color:white;
+}
+.home2 ul li a{
+    color:white;
+}
+.donatebox1{
+    background-color: rgb(0,0,0,0.6);
+  border-radius: 20px;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+  margin: 15%;
+  display: flex;
+}
+.donatebox1 col img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+
+    flex: 50%;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+  
+    
+  .form-head {
+      font-weight: 500;
+      color: #fff;
+      opacity: 0.8;
+      font-size: 1.4rem;
+      margin-top: 0;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    
+    
+    .form-input {
+      
+      width: 200px;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: none;
+      
+      border-radius: 1000px;
+      
+      box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      margin-top: 30px;
+        width: 150px;
+        font-size: 35px ;
+      
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+      
+       */
+      
+  
+     
+.form {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+  }
+  
+  .title {
+    color: #eee;
+    font-family: Montserrat-ExtraBold;
+    
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color: white;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+  .submit {
+    background-color: #ffd54f;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    /* outline: 0; */
+    text-align: center;
+    width: 100%;
+  }
+  
+ 
+  
+  
+  
